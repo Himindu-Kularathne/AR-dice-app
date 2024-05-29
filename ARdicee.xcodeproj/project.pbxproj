@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78F9F112C06CA2B00EF4446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F9F102C06CA2B00EF4446 /* AppDelegate.swift */; };
+		C78F9F132C06CA2B00EF4446 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C78F9F122C06CA2B00EF4446 /* art.scnassets */; };
+		C78F9F152C06CA2B00EF4446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F9F142C06CA2B00EF4446 /* ViewController.swift */; };
+		C78F9F182C06CA2B00EF4446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78F9F162C06CA2B00EF4446 /* Main.storyboard */; };
+		C78F9F1A2C06CA2D00EF4446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78F9F192C06CA2D00EF4446 /* Assets.xcassets */; };
+		C78F9F242C06CA2D00EF4446 /* ARdiceeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F9F232C06CA2D00EF4446 /* ARdiceeTests.swift */; };
+		C78F9F2E2C06CA2D00EF4446 /* ARdiceeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F9F2D2C06CA2D00EF4446 /* ARdiceeUITests.swift */; };
+		C78F9F302C06CA2D00EF4446 /* ARdiceeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F9F2F2C06CA2D00EF4446 /* ARdiceeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C78F9F202C06CA2D00EF4446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78F9F052C06CA2B00EF4446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78F9F0C2C06CA2B00EF4446;
+			remoteInfo = ARdicee;
+		};
+		C78F9F2A2C06CA2D00EF4446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C78F9F052C06CA2B00EF4446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78F9F0C2C06CA2B00EF4446;
+			remoteInfo = ARdicee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C78F9F0D2C06CA2B00EF4446 /* ARdicee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARdicee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78F9F102C06CA2B00EF4446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C78F9F122C06CA2B00EF4446 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		C78F9F142C06CA2B00EF4446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C78F9F172C06CA2B00EF4446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C78F9F192C06CA2D00EF4446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C78F9F1F2C06CA2D00EF4446 /* ARdiceeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARdiceeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78F9F232C06CA2D00EF4446 /* ARdiceeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARdiceeTests.swift; sourceTree = "<group>"; };
+		C78F9F292C06CA2D00EF4446 /* ARdiceeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARdiceeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78F9F2D2C06CA2D00EF4446 /* ARdiceeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARdiceeUITests.swift; sourceTree = "<group>"; };
+		C78F9F2F2C06CA2D00EF4446 /* ARdiceeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARdiceeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78F9F0A2C06CA2B00EF4446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78F9F1C2C06CA2D00EF4446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78F9F262C06CA2D00EF4446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78F9F042C06CA2B00EF4446 = {
+			isa = PBXGroup;
+			children = (
+				C78F9F0F2C06CA2B00EF4446 /* ARdicee */,
+				C78F9F222C06CA2D00EF4446 /* ARdiceeTests */,
+				C78F9F2C2C06CA2D00EF4446 /* ARdiceeUITests */,
+				C78F9F0E2C06CA2B00EF4446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78F9F0E2C06CA2B00EF4446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78F9F0D2C06CA2B00EF4446 /* ARdicee.app */,
+				C78F9F1F2C06CA2D00EF4446 /* ARdiceeTests.xctest */,
+				C78F9F292C06CA2D00EF4446 /* ARdiceeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78F9F0F2C06CA2B00EF4446 /* ARdicee */ = {
+			isa = PBXGroup;
+			children = (
+				C78F9F102C06CA2B00EF4446 /* AppDelegate.swift */,
+				C78F9F122C06CA2B00EF4446 /* art.scnassets */,
+				C78F9F142C06CA2B00EF4446 /* ViewController.swift */,
+				C78F9F162C06CA2B00EF4446 /* Main.storyboard */,
+				C78F9F192C06CA2D00EF4446 /* Assets.xcassets */,
+			);
+			path = ARdicee;
+			sourceTree = "<group>";
+		};
+		C78F9F222C06CA2D00EF4446 /* ARdiceeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C78F9F232C06CA2D00EF4446 /* ARdiceeTests.swift */,
+			);
+			path = ARdiceeTests;
+			sourceTree = "<group>";
+		};
+		C78F9F2C2C06CA2D00EF4446 /* ARdiceeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C78F9F2D2C06CA2D00EF4446 /* ARdiceeUITests.swift */,
+				C78F9F2F2C06CA2D00EF4446 /* ARdiceeUITestsLaunchTests.swift */,
+			);
+			path = ARdiceeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78F9F0C2C06CA2B00EF4446 /* ARdicee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78F9F332C06CA2D00EF4446 /* Build configuration list for PBXNativeTarget "ARdicee" */;
+			buildPhases = (
+				C78F9F092C06CA2B00EF4446 /* Sources */,
+				C78F9F0A2C06CA2B00EF4446 /* Frameworks */,
+				C78F9F0B2C06CA2B00EF4446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARdicee;
+			productName = ARdicee;
+			productReference = C78F9F0D2C06CA2B00EF4446 /* ARdicee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C78F9F1E2C06CA2D00EF4446 /* ARdiceeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78F9F362C06CA2D00EF4446 /* Build configuration list for PBXNativeTarget "ARdiceeTests" */;
+			buildPhases = (
+				C78F9F1B2C06CA2D00EF4446 /* Sources */,
+				C78F9F1C2C06CA2D00EF4446 /* Frameworks */,
+				C78F9F1D2C06CA2D00EF4446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78F9F212C06CA2D00EF4446 /* PBXTargetDependency */,
+			);
+			name = ARdiceeTests;
+			productName = ARdiceeTests;
+			productReference = C78F9F1F2C06CA2D00EF4446 /* ARdiceeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C78F9F282C06CA2D00EF4446 /* ARdiceeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78F9F392C06CA2D00EF4446 /* Build configuration list for PBXNativeTarget "ARdiceeUITests" */;
+			buildPhases = (
+				C78F9F252C06CA2D00EF4446 /* Sources */,
+				C78F9F262C06CA2D00EF4446 /* Frameworks */,
+				C78F9F272C06CA2D00EF4446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C78F9F2B2C06CA2D00EF4446 /* PBXTargetDependency */,
+			);
+			name = ARdiceeUITests;
+			productName = ARdiceeUITests;
+			productReference = C78F9F292C06CA2D00EF4446 /* ARdiceeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78F9F052C06CA2B00EF4446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C78F9F0C2C06CA2B00EF4446 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C78F9F1E2C06CA2D00EF4446 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C78F9F0C2C06CA2B00EF4446;
+					};
+					C78F9F282C06CA2D00EF4446 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C78F9F0C2C06CA2B00EF4446;
+					};
+				};
+			};
+			buildConfigurationList = C78F9F082C06CA2B00EF4446 /* Build configuration list for PBXProject "ARdicee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C78F9F042C06CA2B00EF4446;
+			productRefGroup = C78F9F0E2C06CA2B00EF4446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78F9F0C2C06CA2B00EF4446 /* ARdicee */,
+				C78F9F1E2C06CA2D00EF4446 /* ARdiceeTests */,
+				C78F9F282C06CA2D00EF4446 /* ARdiceeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78F9F0B2C06CA2B00EF4446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78F9F132C06CA2B00EF4446 /* art.scnassets in Resources */,
+				C78F9F1A2C06CA2D00EF4446 /* Assets.xcassets in Resources */,
+				C78F9F182C06CA2B00EF4446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78F9F1D2C06CA2D00EF4446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78F9F272C06CA2D00EF4446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78F9F092C06CA2B00EF4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78F9F152C06CA2B00EF4446 /* ViewController.swift in Sources */,
+				C78F9F112C06CA2B00EF4446 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78F9F1B2C06CA2D00EF4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78F9F242C06CA2D00EF4446 /* ARdiceeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78F9F252C06CA2D00EF4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78F9F302C06CA2D00EF4446 /* ARdiceeUITestsLaunchTests.swift in Sources */,
+				C78F9F2E2C06CA2D00EF4446 /* ARdiceeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C78F9F212C06CA2D00EF4446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78F9F0C2C06CA2B00EF4446 /* ARdicee */;
+			targetProxy = C78F9F202C06CA2D00EF4446 /* PBXContainerItemProxy */;
+		};
+		C78F9F2B2C06CA2D00EF4446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C78F9F0C2C06CA2B00EF4446 /* ARdicee */;
+			targetProxy = C78F9F2A2C06CA2D00EF4446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C78F9F162C06CA2B00EF4446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78F9F172C06CA2B00EF4446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78F9F312C06CA2D00EF4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C78F9F322C06CA2D00EF4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78F9F342C06CA2D00EF4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTU96A83P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.himindu.ARdicee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C78F9F352C06CA2D00EF4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTU96A83P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.himindu.ARdicee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C78F9F372C06CA2D00EF4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTU96A83P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.himindu.ARdiceeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARdicee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARdicee";
+			};
+			name = Debug;
+		};
+		C78F9F382C06CA2D00EF4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTU96A83P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.himindu.ARdiceeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARdicee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARdicee";
+			};
+			name = Release;
+		};
+		C78F9F3A2C06CA2D00EF4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTU96A83P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.himindu.ARdiceeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARdicee;
+			};
+			name = Debug;
+		};
+		C78F9F3B2C06CA2D00EF4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HTU96A83P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.himindu.ARdiceeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARdicee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78F9F082C06CA2B00EF4446 /* Build configuration list for PBXProject "ARdicee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78F9F312C06CA2D00EF4446 /* Debug */,
+				C78F9F322C06CA2D00EF4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78F9F332C06CA2D00EF4446 /* Build configuration list for PBXNativeTarget "ARdicee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78F9F342C06CA2D00EF4446 /* Debug */,
+				C78F9F352C06CA2D00EF4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78F9F362C06CA2D00EF4446 /* Build configuration list for PBXNativeTarget "ARdiceeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78F9F372C06CA2D00EF4446 /* Debug */,
+				C78F9F382C06CA2D00EF4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78F9F392C06CA2D00EF4446 /* Build configuration list for PBXNativeTarget "ARdiceeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78F9F3A2C06CA2D00EF4446 /* Debug */,
+				C78F9F3B2C06CA2D00EF4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C78F9F052C06CA2B00EF4446 /* Project object */;
+}
